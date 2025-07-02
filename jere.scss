@@ -3,9 +3,12 @@
 @use "sobremi.scss";
 @use "contacto.scss";
 @use "stream.scss";
+ @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+
 /* General Styles */
 body {
-  font-family: 'minecraft', Arial, sans-serif;
+font-family: 'Minecraft', sans-serif;
   margin: 0;
   background-color: #3b275f;
   color: #ffffff;
@@ -83,20 +86,15 @@ footer {
   margin-top: 2rem;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    gap: 1rem;
-  }
 
+    
   .hero h2 {
     font-size: 2rem;
   }
 
   .hero p {
     font-size: 1rem;
-  }
+  
 }
 
 footer {
@@ -128,7 +126,7 @@ footer p {
 .redes img:hover {
   transform: scale(1.1); 
 }
-
+@import "./reponsive";
 
 
 
