@@ -1,0 +1,11 @@
+.logo-stream {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  transition: transform 0.2s ease;
+
+
+.logo-stream:hover {
+  transform: scale(1.1);
+}
+}
