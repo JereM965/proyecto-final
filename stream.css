@@ -195,3 +195,13 @@ footer p {
 }
 
 /*# sourceMappingURL=stream.css.map */
+
+
+
+.img-jere-1 {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
