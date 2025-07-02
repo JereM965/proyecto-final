@@ -17,7 +17,11 @@
   text-align: center;
   color: white;
   padding: 50px 20px;
-  font-family: Arial, sans-serif;
+  font-family: "Minecraft", sans-serif;
+  background: linear-gradient(135deg, #3b275f, #1e1e1e);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
 }
 .merch .merch h2 {
   font-size: 32px;
